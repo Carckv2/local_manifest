@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--Remote-->
+ <remote name="Carckv2" fetch="https://github.com/Carckv2" />
+ 
+ 
+ <!--Trees-->
+ <project path="device/realme/spaced" name="device_realme_spaced" remote="Carckv2" revision="main" />
+ <project path="vendor/realme/spaced" name="vendor_oss_realme" remote="Carckv2" revision="thirteen" />
+ <project path="kernel/realme/spaced" name="android_kernel_realme_mt6781 " remote="Carckv2" revision="eleven" />
+</manifest>
+
